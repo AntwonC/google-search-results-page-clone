@@ -17,18 +17,21 @@
 .googleImage {
     width: 100px; 
     height: auto; 
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .search-bar {
     display: flex; 
     border: 1px solid #dfe1e5; 
-    height: 25px; 
+    height: 30px; 
     width: 482px; 
     border-radius: 8px;  
     align-items: center; 
     flex-direction: row; 
     margin-left: 25px;
-     
+    margin-top: 25px;
  }
  
  .search-image {
@@ -46,7 +49,7 @@
  
  .search-input {
      border-radius: 8px;
-     height: 25px; 
+     height: 30px; 
      width: 482px; 
      border: 1px solid #dfe1e5; 
  }
@@ -104,7 +107,8 @@
 .under-search-bar {
     display: flex;
     flex-flow: row wrap;
-   
+    margin-top: 15px;
+    margin-left: 30px;
 }
 
 .all-text {
@@ -115,9 +119,10 @@
     background: none;
     font-size: 15px; 
     cursor: pointer; 
-    border-bottom: 4px solid blue; 
+    border-bottom: 3px solid blue; 
     margin-top: 15px;
     color: blue;
+    height: 30px;
 }
 
 .rainbow-search-image {
@@ -132,6 +137,7 @@
     background: none; 
     font-size: 15px; 
     cursor: pointer;
+    margin-top: 15px;
  
 }
 
@@ -146,7 +152,7 @@
     background: none; 
     font-size: 15px; 
     cursor: pointer;
-    
+    margin-top: 15px;
 }
 
 .videos-image {
@@ -154,4 +160,73 @@
     margin-right: 6px;
 }
 
+.maps-text {
+    display: flex; 
+    border: none; 
+    background: none; 
+    font-size: 15px; 
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.maps-image {
+    height: 17px; 
+    margin-right: 6px;
+}
+
+.shopping-text {
+    display: flex; 
+    border: none; 
+    background: none; 
+    font-size: 15px; 
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.shopping-image {
+    height: 17px; 
+    margin-right: 6px;
+    transform: scaleX(-1); 
+}
+
+.more-text {
+    display: flex; 
+    border: none; 
+    background: none; 
+    font-size: 15px; 
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.more-image {
+    height: 17px; 
+    margin-right: 4px;
+}
+
+.tools-text {
+    display: flex; 
+    border: none; 
+    background: none; 
+    font-size: 15px; 
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+
 /* UNDER SEARCH BAR END */
+
+.search-results-time {
+    margin-left: 150px;
+    margin-top: 15px;
+    color: grey;
+}
+
+.advertise-text {
+    white-space: nowrap;
+}
+
+.website-link {
+    white-space: nowrap;
+    display: inline;
+}
