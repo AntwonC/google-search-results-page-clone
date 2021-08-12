@@ -216,17 +216,114 @@
 
 /* UNDER SEARCH BAR END */
 
+/*  PEOPLE ALSO ASK SECTION START */
 .search-results-time {
     margin-left: 150px;
     margin-top: 15px;
     color: grey;
 }
 
-.advertise-text {
-    white-space: nowrap;
+.first-result-text {
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
-.website-link {
-    white-space: nowrap;
+.temp-text {
     display: inline;
+    color: grey; 
+    font-size: 15px;
+    cursor: pointer;
 }
+
+.more-first-result-text {
+    height: 20px;
+    cursor: pointer;
+}
+
+.inside-text-first-result {
+    margin-top: 5px;
+    color: #1a0dab;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.inside-text-first-result:hover {
+    text-decoration: underline;
+}
+
+.summary-text {
+    width: 600px;
+    margin-top: 5px;
+}
+
+.second-summary-text {
+    font-weight: 545;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 23px;
+    box-shadow: 0 50vh 0 50vh white; 
+    border-bottom: 1px solid #e4e4e4;
+    width: 600px;
+    height: 40px;
+}
+
+.second-more-image {
+    display: inline;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.second-element-text {
+    margin-left: 150px;
+    font-weight: 560;
+    border-bottom: 1px solid #e4e4e4;
+    width: 600px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.second-down-image {
+    margin-left: 387px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.third-element-text {
+    margin-left: 150px;
+    font-weight: 560;
+    width: 600px;
+    border-bottom: 1px solid #e4e4e4;
+    height: 50px;
+    cursor: pointer;
+}
+
+.third-down-image {
+    margin-left: 330px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.fourth-element-text {
+    margin-left: 150px;
+    font-weight: 560;
+    width: 600px;
+    border-bottom: 2px solid #e4e4e4;
+    height: 50px;
+    cursor: pointer;
+}
+
+.fourth-down-image {
+    margin-left: 170px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.feedback-text {
+    margin-left: 550px;
+    color: grey; 
+}
+
+/* PEOPLE ALSO ASK SECTION ENDS */
