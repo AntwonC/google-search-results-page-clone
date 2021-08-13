@@ -327,3 +327,52 @@
 }
 
 /* PEOPLE ALSO ASK SECTION ENDS */
+
+/* VIDEOS SECTION STARTS */ 
+
+.third-result-container {  
+    margin-left: 150px;
+    margin-top: 40px;  
+    border-bottom: 1px solid #e4e4e4;
+    width: 600px; 
+    height: 40px;
+}
+
+.third-video-image {
+    margin-right: 10px; 
+    
+}
+
+.third-videos-text {
+    margin-top: 10px; 
+    font-size: 30px;
+    font-weight: 547;
+    height: 40px;
+    display: inline;
+}
+
+.third-element-more {
+    margin-left: 20px; 
+}
+
+.third-youtube-container {
+    display: flex;
+}
+
+.third-element-youtube-link {
+    margin-top: 20px;
+}
+
+.third-youtube-text {
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer; 
+    color: #1a0dab;
+    font-size: 18px;
+}
+
+.third-youtube-text-extra {
+    color: black;
+    margin-top: 10px; 
+    font-size: 15px; 
+}
