@@ -371,8 +371,92 @@
     font-size: 18px;
 }
 
+.third-result-first-text:hover {
+    text-decoration: underline;
+}
+
 .third-youtube-text-extra {
     color: black;
-    margin-top: 10px; 
+    margin-top: 20px; 
     font-size: 15px; 
 }
+
+.youtube-text {
+    display: inline;
+}
+
+.list-element-text {
+    color: grey; 
+    display: inline;
+    margin-left: 10px;
+}
+
+.third-result-date {
+    color: grey; 
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+/* YOUTUBE TIMESTAMPS STARTS */
+.timeline-container { 
+    width:600px;
+	height: 150px;
+	list-style: none;
+	text-align: justify;
+	margin: 80px auto;
+	background-color: #d5e4fd;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.timeline-text {
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+
+.timeline-container:after {
+    display: inline-block; 
+    content: "";
+    width: 100%; 
+}
+
+.timeline-container li {
+    display: inline-block;
+    width: 5px; 
+    border-radius: 50%; 
+    position: relative; 
+    line-height: 1.2; 
+    height: 5px;
+    text-align: center; 
+    background: #1967D2; 
+}
+
+.timeline-container:before {
+    display: inline-block; 
+    content: attr(video-time);
+    font-size: 26px;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.timeline-container li:nth-child(odd):before {
+    top: -40px; 
+}
+
+.timeline-container li:nth-child(even):before {
+    bottom: -40px;
+}
+
+.timeline-container li:after {
+    display: inline-block; 
+    content: attr(video-text);
+    font-size: 16px; 
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: 20px;
+    width: 100px;
+}
+
+/* YOUTUBE TIMESTAMPS ENDS */
