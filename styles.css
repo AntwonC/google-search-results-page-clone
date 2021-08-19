@@ -504,3 +504,56 @@ https://codeconvey.com/simple-horizontal-timeline-css/*/
 }
 
 /* SECOND YOUTUBE VIDEO ENDS */
+
+.view-all-container {
+    border-bottom: 2px solid #e4e4e4;
+}
+
+
+.oval-shape {
+    border-radius: 10%;
+    width: 250px;
+    height: 40px;
+    background-color: #f9feff;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 20px;
+    line-height: 2;
+    border: 1px solid #dadce0;
+    color: blue;
+    
+}
+
+
+.black-arrow-image {
+    right: 80px;
+    top: 5px;
+    position: relative;
+}
+
+.view-all-text {
+    display: inline;
+    text-align: center;
+    position: relative; 
+    right: 5px;
+}
+
+.hr-element {
+    display: flex; 
+    position: relative; 
+    align-items: center;
+    text-align: center;
+}
+
+.hr-element::before, .hr-element::after {
+    content: '';
+    flex: 1;
+}
+
+.hr-element:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.hr-element:not(:empty)::after {
+    margin-left: .25em;
+}
