@@ -557,6 +557,8 @@ https://codeconvey.com/simple-horizontal-timeline-css/*/
 .result-extra-links {
     margin-top: 5px;
     color: #1a0dab;
+    cursor: pointer;
+    width: 700px;
 }
 
 
