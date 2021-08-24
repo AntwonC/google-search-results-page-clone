@@ -505,10 +505,11 @@ https://codeconvey.com/simple-horizontal-timeline-css/*/
 
 /* SECOND YOUTUBE VIDEO ENDS */
 
-.view-all-container {
-    border-bottom: 2px solid #e4e4e4;
+/* VIEW ALL CONTAINER STARTS */
+.view-all-container {  
+    position: relative;
+    
 }
-
 
 .oval-shape {
     border-radius: 10%;
@@ -516,12 +517,12 @@ https://codeconvey.com/simple-horizontal-timeline-css/*/
     height: 40px;
     background-color: #f9feff;
     text-align: center;
-    margin-left: 160px;
+    margin-left: 150px;
     margin-top: 20px;
     line-height: 2;
     border: 1px solid #dadce0;
     color: blue;
-    
+    cursor: pointer;
 }
 
 
@@ -538,22 +539,24 @@ https://codeconvey.com/simple-horizontal-timeline-css/*/
     right: 5px;
 }
 
+/* Figured out the line overlap problem here https://stackoverflow.com/questions/18172072/div-with-text-over-hr-line */
 .hr-element {
-    display: flex; 
-    position: relative; 
-    align-items: center;
-    text-align: center;
+    padding: 0;
+    border: 1px solid #dadce0;
+    bottom: -40px;
+    position: relative;
+    margin-top: -10px;
+}
+/* VIEW ALL CONTAINER ENDS */
+
+/* BUNCH OF RESULTS STARTS  */
+.search-result-container {
+    margin-top: 15px;
 }
 
-.hr-element::before, .hr-element::after {
-    content: '';
-    flex: 1;
+.result-extra-links {
+    margin-top: 5px;
+    color: #1a0dab;
 }
 
-.hr-element:not(:empty)::before {
-    margin-right: .25em;
-}
 
-.hr-element:not(:empty)::after {
-    margin-left: .25em;
-}
